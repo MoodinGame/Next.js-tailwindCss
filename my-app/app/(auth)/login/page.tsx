@@ -1,10 +1,12 @@
-import Image from "next/image";
-import Link from "next/link";
+// rafce
 
-export default function Home() {
+import Link from 'next/link'
+import React from 'react'
+
+const LoginPage = () => {
   return (
-    <>
-      <nav className="bg-base-100 shadow-lg p-4">
+    <div>
+        <nav className="bg-base-100 shadow-lg p-4">
         <div className="flex gap-4 text-xl font-semibold">
           <Link href={"/"} className="btn btn-ghost hover:btn-primary">
             Home
@@ -17,6 +19,8 @@ export default function Home() {
           </Link>
         </div>
       </nav>
-    </>
-  );
+        LoginPage</div>
+  )
 }
+
+export default LoginPage

@@ -1,9 +1,9 @@
-import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 
-export default function Home() {
+const CampPage = () => {
   return (
-    <>
+    <div>
       <nav className="bg-base-100 shadow-lg p-4">
         <div className="flex gap-4 text-xl font-semibold">
           <Link href={"/"} className="btn btn-ghost hover:btn-primary">
@@ -17,6 +17,9 @@ export default function Home() {
           </Link>
         </div>
       </nav>
-    </>
+      CampPage
+    </div>
   );
-}
+};
+
+export default CampPage;
